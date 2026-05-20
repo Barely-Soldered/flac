@@ -1,0 +1,35 @@
+#ifndef FLAC_CONFIG_H
+#define FLAC_CONFIG_H
+
+#define PACKAGE_VERSION "1.5.0"
+#define VERSION "1.5.0"
+
+#define CPU_IS_BIG_ENDIAN 0
+#define WORDS_BIGENDIAN 0
+
+#define ENABLE_64_BIT_WORDS 1
+
+#define OGG_FOUND 1
+#define FLAC__HAS_OGG OGG_FOUND
+
+#define FLAC__HAS_X86INTRIN 0
+#define FLAC__HAS_NEONINTRIN 0
+#define FLAC__HAS_A64NEONINTRIN 0
+
+#define HAVE_INTTYPES_H 1
+#define HAVE_STDINT_H 1
+#define HAVE_STDLIB_H 1
+#define HAVE_STRING_H 1
+#define HAVE_SYS_PARAM_H 1
+#define HAVE_SYS_STAT_H 1
+#define HAVE_SYS_TYPES_H 1
+#define HAVE_UNISTD_H 1
+
+#define HAVE_BSWAP16 1
+#define HAVE_BSWAP32 1
+#define HAVE_FSEEKO 1
+#define HAVE_LROUND 1
+#define HAVE_CPUID_H 1
+#define HAVE_X86INTRIN_H 1
+
+#endif
