@@ -58,6 +58,7 @@ flac_lib = static_library(
 )
 
 flac_dep = declare_dependency(
+  compile_args: ['-DFLAC__NO_DLL'],
   link_with: flac_lib,
   include_directories: flac_public_inc,
   dependencies: ogg_dep,
